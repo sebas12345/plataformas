@@ -1,0 +1,115 @@
+*{
+	margin:200;
+	box-sizing: border-box;
+}
+body{
+	color: white;
+	font-family: 'Arial';
+	}
+header{
+	height: 1px;
+	
+}
+section{
+	min-width: 700px;
+	margin: auto;
+	padding: 30px 0; 
+}
+section h1{
+	font-size: 50px;
+}
+.conte{
+	text-align: left; 
+}
+.conte p{
+	font-size: 60px;
+	font-weight: bold;
+	margin: 1em 0 ;
+}
+.conte a {
+	color:white;
+	text-decoration: none;
+	background: black;
+	padding: 15px 60px;
+	border-radius: 0px;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.login {
+  width: 400px;
+  height: 340px;
+  background: black;
+  margin: auto;
+  margin-top: 130px;
+  padding: 20px 30px;
+  color: white;
+}
+.login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+
+
+
+body {
+  background-image: url('../img/imagen1.jpg');
+}
+
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}

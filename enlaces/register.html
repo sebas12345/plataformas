@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <form action="" method="post"> 
+        <section class="form-register">
+            <h4>Registro</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre"  required pattern="[A-z]{1,15}">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required pattern="[A-z]{1,15}">
+            <select id="region" name="region" class="controls" title="hola &#10;mundo"></select>
+            <select id="ciudad" name="ciudad" class="controls"></select>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" type="url" required >
+            <input class="controls" type="text" name="username" id ="username"placeholder="Nombre de usuario" pattern="[a-z]{1,15}" required>
+            <input type="password" class="controls" placeholder="Password" id="password" required>
+            <input type="password" class="controls" placeholder="Confirm Password" id="confirm_password" required>
+            <button type="submit"  class="controls">Registrar</button><br>
+            <a href="login.html">¿Ya tengo Cuenta?</a>
+        </section>
+    </form>
+</body>
+</html>
